@@ -60,11 +60,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20%;
-    width: auto;
+    gap: 5%;
+    width: 60%;
 }
-.icons-img {
+.bg-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--veryDarkBlue);
+    height: 40px;
+    width: 40px;
 }
 .bar-container {
     display: flex;
