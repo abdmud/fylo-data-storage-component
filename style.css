@@ -39,7 +39,7 @@ body {
     height: 30%;
     padding: 0 15%;
     position: relative;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 .left, .right {
     background-color: var(--darkBlue);
@@ -107,6 +107,6 @@ body {
 .right {
     width: 600px;
     height: auto;
-    padding: 1%;
+    padding: 2% 2%;
     border-radius: 10px;
 }
