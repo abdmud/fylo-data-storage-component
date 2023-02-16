@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/**** COLORS ****/
+:root {
+    --paleBlue: hsl(207, 100%, 98%);
+    --grayishBlue: hsl(229, 7%, 55%);
+    --darkBlue: hsl(228, 56%, 26%);
+    --veryDarkBlue: hsl(229, 57%, 11%);
+    --gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+}
+
+html, body {
+    /*background-color: var(--veryDarkBlue);*/
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+/********* TABS *********/
+.tabs {
+    display: flex;
+}
+.left, .right {
+    background-color: var(--darkBlue);
+}
+.left {
+    border: solid 1px red;
+    width: 300px;
+    height: 200px;
+}
+.right {
+    border: solid 1px pink;
+    width: 600px;
+    height: 100px;
+}
