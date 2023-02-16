@@ -22,13 +22,26 @@ body {
     font-size: 14px;
     color: var(--paleBlue);
 }
-
+.page {
+    background-color: var(--veryDarkBlue);
+    position: absolute;
+    background-image: url(./images/bg-desktop.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
 /********* TABS *********/
 .tabs {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    border: solid 2px black;
+    border: solid 1px red;
+    height: 30%;
+    padding: 0 15%;
+    background-color: var(--veryDarkBlue);
+    position: relative;
+    margin-top: 10%;
 }
 .left, .right {
     background-color: var(--darkBlue);
@@ -59,7 +72,7 @@ body {
 .bar-container {
     display: flex;
     width: 97%;
-    height: 20px;
+    height: 10px;
     margin: 0 auto;
     background-color: hsla(229, 57%, 11%, 0.4);
     border-radius: 10px;
@@ -67,7 +80,7 @@ body {
 }
 .storage-bar {
     display: flex;
-    width: 87.1%;
+    width: 81.5%;
     height: 100%;
     background: linear-gradient(90deg, var(--start_g), var(--end_g));
     margin: auto 2px;
@@ -78,7 +91,7 @@ body {
 .circle {
     display: flex;
     height: 100%;
-    width: 20px;
+    width: 10px;
     background-color: var(--paleBlue);
     border-radius: 100px;
 }
@@ -89,7 +102,7 @@ body {
     margin: 10px 0 20px 0;
 }
 .right {
-    border: solid 1px pink;
+    border: solid 1px red;
     width: 600px;
     height: auto;
     padding: 1%;
