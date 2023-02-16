@@ -36,7 +36,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    border: solid 1px red;
     height: 30%;
     padding: 0 15%;
     position: relative;
@@ -46,7 +45,6 @@ body {
     background-color: var(--darkBlue);
 }
 .left {
-    border: solid 1px red;
     width: 300px;
     height: 200px;
     display: flex;
@@ -101,8 +99,8 @@ body {
     margin: 10px 0 20px 0;
 }
 .right {
-    border: solid 1px red;
     width: 600px;
     height: auto;
     padding: 1%;
+    border-radius: 10px;
 }
