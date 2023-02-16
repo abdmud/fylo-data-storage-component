@@ -7,6 +7,8 @@
     --darkBlue: hsl(228, 56%, 26%);
     --veryDarkBlue: hsl(229, 57%, 11%);
     --gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+    --start_g: hsl(6, 100%, 80%);
+    --end_g: hsl(335, 100%, 65%);
 }
 
 html, body {
@@ -54,8 +56,41 @@ body {
 .icons-img {
     background-color: var(--veryDarkBlue);
 }
+.bar-container {
+    display: flex;
+    width: 97%;
+    height: 20px;
+    margin: 0 auto;
+    background-color: hsla(229, 57%, 11%, 0.4);
+    border-radius: 10px;
+    padding: 3px;
+}
+.storage-bar {
+    display: flex;
+    width: 87.1%;
+    height: 100%;
+    background: linear-gradient(90deg, var(--start_g), var(--end_g));
+    margin: auto 2px;
+    border-radius: 10px;
+    padding: 2px;
+    justify-content: end;
+}
+.circle {
+    display: flex;
+    height: 100%;
+    width: 20px;
+    background-color: var(--paleBlue);
+    border-radius: 100px;
+}
+.limits-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px 0 20px 0;
+}
 .right {
     border: solid 1px pink;
     width: 600px;
-    height: 100px;
+    height: auto;
+    padding: 1%;
 }
