@@ -123,8 +123,14 @@ span {
 ****** MOBILE ****************
 *****************************/
 @media only screen and (max-width: 600px) {
-    html {
+    .page {
         background-image: url(./images/bg-mobile.png);
+        position: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100%;
     }
     .tabs {
       flex-direction: column;
@@ -139,5 +145,6 @@ span {
     .right {
         width: 320px;
         margin-top: 5%;
+        text-align: center;
     }
   }
