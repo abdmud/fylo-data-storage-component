@@ -20,7 +20,7 @@ html, body {
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    color: var(--paleBlue);
+    color: var(--grayishBlue);
 }
 .page {
     background-color: var(--veryDarkBlue);
@@ -30,6 +30,9 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
+}
+span {
+    color: var(--paleBlue);
 }
 /********* TABS *********/
 .tabs {
@@ -110,3 +113,31 @@ body {
     padding: 2% 2%;
     border-radius: 10px;
 }
+.bubble-div {
+    background-color: white;
+    height: 60px;
+    width: 100px;
+}
+
+/*****************************
+****** MOBILE ****************
+*****************************/
+@media only screen and (max-width: 600px) {
+    html {
+        background-image: url(./images/bg-mobile.png);
+    }
+    .tabs {
+      flex-direction: column;
+      height: auto;
+      border: solid 1px red;
+    }
+    .left {
+        width: 300px;
+        height: 150px;
+        padding-left: 10%;
+    }
+    .right {
+        width: 320px;
+        margin-top: 5%;
+    }
+  }
