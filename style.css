@@ -43,6 +43,7 @@ span {
     padding: 0 15%;
     position: relative;
     margin-top: 15%;
+    gap: 2%;
 }
 .left, .right {
     background-color: var(--darkBlue);
@@ -114,11 +115,24 @@ span {
     border-radius: 10px;
 }
 .bubble-div {
-    background-color: white;
-    height: 60px;
-    width: 100px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-left: -25%;
+    margin-bottom: 12.5%;
+    background-color: var(--paleBlue);
+    border-bottom-right-radius: -30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
-
+.data {
+    color: black;
+    font-weight: 700;
+}
 /*****************************
 ****** MOBILE ****************
 *****************************/
@@ -135,7 +149,6 @@ span {
     .tabs {
       flex-direction: column;
       height: auto;
-      border: solid 1px red;
     }
     .left {
         width: 300px;
@@ -146,5 +159,17 @@ span {
         width: 320px;
         margin-top: 5%;
         text-align: center;
+    }
+    .bubble-div {
+        border-radius: 10px;
+        height: 50px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        margin-top: -5%;
+        margin-right: 20%;
+        background-color: var(--paleBlue);
     }
   }
